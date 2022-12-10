@@ -16,6 +16,6 @@ mainframe=ttk.Frame(root,padding="3 3 12 12")
 
 
 #creating buttons
-mybutton=Button(root,text='click me')
+mybutton=Button(root,text='click me',padx=50,pady=50) #add state=DISABLED  # padding x axis padx
 mybutton.grid(row=3,column=6)
 root.mainloop()
