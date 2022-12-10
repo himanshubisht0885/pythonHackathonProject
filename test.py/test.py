@@ -1,1 +1,2 @@
-import math
+import tkinter
+tkinter._test()
